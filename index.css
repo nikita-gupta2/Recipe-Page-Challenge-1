@@ -1,0 +1,53 @@
+/* *{
+    text-align: center;
+} */
+/* body{
+    text-align: center;
+    width: 1440px;
+    background-color: hsl(0, 0%, 100%);
+} */
+body{
+    background-color: hsl(30, 18%, 87%);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#outer{
+    
+    width: 50%;
+    background-color: white;
+    border-radius: 1%;
+    padding: 3%;
+    margin: 0 auto;   /* centers the div horizontally */
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2%;
+}
+div,table{
+    font-size: 16px;
+    font-family: "Outfit";
+    font-weight: 400;
+    text-align: justify;
+}
+h1,h2{
+    font-family: "Young Serif";
+    font-weight: 500;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+}
+#Preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 2%;
+}
+#Preparation h3{
+    color: hsl(332, 51%, 32%);
+}
+.marker li::marker, .datamarker{
+    color: hsl(14, 45%, 36%);
+}
+tr.line td,.line{
+    border-bottom: 1px solid #ccc;  /* light gray like <hr> */
+}
