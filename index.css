@@ -8,12 +8,17 @@
 } */
 body{
     background-color: hsl(30, 18%, 87%);
-    padding-top: 10%;
-    padding-bottom: 10%;
+    /* padding-top: 10%; */
+    /* padding-bottom: 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
 }
 #outer{
     
-    width: 50%;
+    width: 500px;
+    /* height: auto; */
     background-color: white;
     border-radius: 1%;
     padding: 3%;
