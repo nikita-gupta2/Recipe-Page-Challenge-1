@@ -1,11 +1,4 @@
-/* *{
-    text-align: center;
-} */
-/* body{
-    text-align: center;
-    width: 1440px;
-    background-color: hsl(0, 0%, 100%);
-} */
+
 body{
     background-color: hsl(30, 18%, 87%);
     /* padding-top: 10%; */
@@ -13,7 +6,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: space-around;
+    /* align-content: space-around; */
 }
 #outer{
     
@@ -52,6 +45,9 @@ h2{
 }
 .marker li::marker, .datamarker{
     color: hsl(14, 45%, 36%);
+}
+ul li, ol li{
+    padding-left: 3%;
 }
 tr.line td,.line{
     border-bottom: 1px solid #ccc;  /* light gray like <hr> */
