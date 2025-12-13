@@ -1,17 +1,17 @@
 
 body{
     background-color: hsl(30, 18%, 87%);
-    /* padding-top: 10%; */
-    /* padding-bottom: 10%; */
+    padding-top: 10%;
+    padding-bottom: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* align-content: space-around; */
+    margin: 0;
 }
-#outer{
-    
-    width: 500px;
-    /* height: auto; */
+
+
+#outer{   
+    width: 50%;
     background-color: white;
     border-radius: 1%;
     padding: 3%;
@@ -21,13 +21,19 @@ body{
 img{
     height: 100%;
     width: 100%;
-    border-radius: 2%;
+    border-radius: 3%;
 }
+
 div,table{
     font-size: 16px;
     font-family: "Outfit";
     font-weight: 400;
     text-align: justify;
+    padding: 1%;
+    margin: 0;
+}
+#main{
+    padding: 0;
 }
 h1,h2{
     font-family: "Young Serif";
@@ -38,17 +44,41 @@ h2{
 }
 #Preparation{
     background-color: hsl(330, 100%, 98%);
-    border-radius: 2%;
+    border-radius: 3%;
 }
 #Preparation h3{
     color: hsl(332, 51%, 32%);
+    padding-left: 2%
 }
 .marker li::marker, .datamarker{
     color: hsl(14, 45%, 36%);
 }
+
 ul li, ol li{
-    padding-left: 3%;
+    padding: 1%;
 }
-tr.line td,.line{
+tr.line td,.line,.Instructions,.Ingredients{
     border-bottom: 1px solid #ccc;  /* light gray like <hr> */
+}
+.firstdata,.datamarker{
+    padding:2%
+}
+.firstdata{
+    padding-left: 8%;
+}
+@media(max-width:375px){
+    body{
+    padding-top: 0;
+    padding-bottom: 0;
+    }  
+    #outer{
+    width: 100%;
+    padding: 0%
+    }
+    #main{
+        padding: 5%;
+    }
+    img{
+        border-radius: 0;
+    }
 }
