@@ -10,7 +10,7 @@ body{
 #outer{   
     width: 50%;
     background-color: white;
-    border-radius: 1%;
+    border-radius: 1.5rem;
     padding: 2.5rem;
     margin: 0 auto;
     color: hsl(30, 10%, 34%);
@@ -19,10 +19,13 @@ body{
 img{
     height: 100%;
     width: 100%;
-    border-radius: 3%;
+    border-radius: 1.5rem;
 }
 h1,b{
     color: hsl(24, 5%, 18%);
+}
+b{
+    font-weight: 700;
 }
 div,table{
     font-size: 16px;
@@ -36,20 +39,21 @@ div,table{
 }
 h1,h2{
     font-family: "Young Serif";
-    font-weight: 500;
+    font-weight: 400;
 }
 h2{
     color: hsl(14, 45%, 36%);
 }
 #Preparation{
     background-color: hsl(330, 100%, 98%);
-    border-radius: 3%;
+    border-radius: 1.5rem;
 }
 #Preparation h3{
     color: hsl(332, 51%, 32%);
     padding-left: 1rem;
+    font-weight: 600;
 }
-.marker li::marker, .datamarker{
+.datamarker b,.marker li::marker{
     color: hsl(14, 45%, 36%);
 }
 
@@ -62,6 +66,9 @@ ul,ol {
     margin: 0;
 
 }
+ol li::marker{
+    font-weight: 700;
+}
 li {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -72,6 +79,7 @@ li {
 }
 
 tr.line td,.line,.Instructions,.Ingredients{
+    padding-bottom: 2rem;
     border-bottom: 1px solid hsl(30, 18%, 87%);  
 }
 .firstdata,.datamarker{
